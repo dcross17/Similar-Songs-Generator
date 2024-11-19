@@ -124,5 +124,6 @@ Body:
 ```
 ## UML Sequence Diagram
 
-![UML class (1)](https://github.com/user-attachments/assets/42e0921c-db26-4418-b445-077b8bb42ca8)
+![UML class (2)](https://github.com/user-attachments/assets/a6cef070-66e6-4483-aa37-6dca9d82064c)
+
 
