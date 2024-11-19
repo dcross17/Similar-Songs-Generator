@@ -48,6 +48,9 @@ GET ```/recommendations/{song_id}```
 
 #### Example Call in Python
 ```
+import requests
+import json
+
 req = requests.get("http://localhost:8000/recommendations/" + song_id)
 ```
 
