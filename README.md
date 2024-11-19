@@ -46,13 +46,26 @@ fastapi dev main.py
 
 GET ```/recommendations/{song_id}```
 
+#### Example Call in Python
+```
+req = requests.get("http://localhost:8000/recommendations/" + song_id)
+```
+
+
 ```
 Request URL: http://localhost:8000/recommendations/2LlQb7Uoj1kKyGhlkBf9aC
 Request Method: GET
 Status Code: 200 OK
 ```
 
-### Example Response
+## Example Response
+```
+res = req.text
+res = req.text
+info = json.loads(res)
+recommendations = info["recommendations"]
+```
+
 Body:
 ```
 {
