@@ -61,7 +61,6 @@ Status Code: 200 OK
 ## Example Response
 ```
 res = req.text
-res = req.text
 info = json.loads(res)
 recommendations = info["recommendations"]
 ```
